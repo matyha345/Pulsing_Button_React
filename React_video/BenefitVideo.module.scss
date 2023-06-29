@@ -1,0 +1,29 @@
+@import "src/styles/variables";
+@import "src/styles/mixins.scss";
+
+.wrapper {
+  margin: 100px 0;
+  .content {
+    display: flex;
+    color: black;
+
+    .videos {
+      position: relative;
+      margin-right: 72px;
+
+      .playButton {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
