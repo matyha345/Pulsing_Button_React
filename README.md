@@ -1,4 +1,6 @@
 # Pulsing_Button_React #ReactVideo
+Данная ссылка отправит вас на визуальную часть обычного HTML CSS
+https://codepen.io/matyha345/pen/LYXWBYa
 Pulsing Play Button (React) (SCSS)
 
 Приведу краткое описание кода: PlayButton
