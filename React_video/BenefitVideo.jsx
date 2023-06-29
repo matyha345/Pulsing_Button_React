@@ -34,9 +34,9 @@ const BenefitVideo = () => {
 							onPause={() => setIsPlaying(false)}
 						></video>
 						{!isPlaying && (
-							<button className={styles.playButton} onClick={handlerPlay}>
+							<div className={styles.playButton} onClick={handlerPlay}>
 								<PlayButton />
-							</button>
+							</div>
 						)}
 					</div>
 				</div>
